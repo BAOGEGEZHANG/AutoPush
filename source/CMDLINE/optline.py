@@ -6,7 +6,7 @@ import getopt
 shortargs = 'ht:'
 longargs = ['help','test=']
 
-cmdPara = {'test':None}
+cmdPara = {'inputFile':None,'outFile':None,'test':None}
 
 def usage():
     print("Usage:./main.py [OPTIONS] ")

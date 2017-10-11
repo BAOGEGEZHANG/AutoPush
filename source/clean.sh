@@ -9,7 +9,7 @@ cleanFile() {
 }
 
 scan1LevelDir(){
-	for dirName in `ls`
+	for dirName in `ls` 
 	do
 		if [ -d $dirName ]
 		then
